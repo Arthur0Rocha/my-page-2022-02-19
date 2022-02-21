@@ -82,7 +82,8 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  width: 300px;
+  height: 150px;
 }
 
 .card:hover,
@@ -106,6 +107,7 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 @media (max-width: 600px) {
