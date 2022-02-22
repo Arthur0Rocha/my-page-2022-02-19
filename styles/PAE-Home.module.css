@@ -1,0 +1,19 @@
+.container {
+    padding: 0 2rem;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 5rem;
+    background-color: black;
+}
+
+.main {
+    min-height: calc(100vh - 5rem - 5rem);
+}
+
+.footer {
+    min-height: 5rem;
+    background-color: gray;
+}
