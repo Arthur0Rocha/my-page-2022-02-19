@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+
+import Footer from '../../components/pae/footer'
 import styles from '../../styles/PAE-Home.module.css'
 
 const PAEHome: NextPage = () => {
@@ -20,9 +22,8 @@ const PAEHome: NextPage = () => {
         
       </main>
 
-      <footer className={styles.footer}>
-        
-      </footer>
+      <Footer/>
+      
     </div>
   )
 }

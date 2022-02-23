@@ -12,8 +12,3 @@
 .main {
     min-height: calc(100vh - 5rem - 5rem);
 }
-
-.footer {
-    min-height: 5rem;
-    background-color: gray;
-}
