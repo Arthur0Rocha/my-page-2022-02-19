@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
+import Header from '../../components/pae/header'
 import Footer from '../../components/pae/footer'
 import styles from '../../styles/PAE-Home.module.css'
 
@@ -14,9 +15,7 @@ const PAEHome: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className={styles.header}>
-
-      </header>
+      <Header page='Home'/>
 
       <main className={styles.main}>
         
