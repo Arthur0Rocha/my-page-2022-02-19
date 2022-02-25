@@ -15,7 +15,7 @@ const PAEHome: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header page='Home'/>
+      <Header pageSlug='home'/>
 
       <main className={styles.main}>
         

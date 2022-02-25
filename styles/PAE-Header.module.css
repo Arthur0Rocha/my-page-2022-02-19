@@ -3,3 +3,16 @@
     background-color: black;
     color: wheat;
 }
+
+.ul {
+    margin: 0;
+}
+
+.li {
+    color: white;
+}
+
+.highlight {
+    color: whitesmoke;
+    text-decoration: underline;
+}

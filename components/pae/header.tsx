@@ -3,13 +3,28 @@ import styles from '../../styles/PAE-Header.module.css';
 
 type Props = {
     children?: ReactNode,
-    page: string
+    pageSlug: string
 }
 
-function Header({ page } : Props) {
+const pages = [
+    ['home', 'Home'],
+    ['o-que-eh-pae', 'O que é PAE?'],
+    ['gravacao', 'Gravação'],
+    ['protocolo', 'Protocolo'],
+    ['avancado', 'Avançado']
+]
+
+function Header({ pageSlug } : Props) {
     return (
         <header className={styles.header}>
-            { page }
+            <ul className={styles.ul}>
+
+            { pages.map( function( [slug, name] ) {
+                return (<li key={slug} className={`${styles.li} ${slug===pageSlug ? styles.highlight : ''}`}>
+                    { name }
+                </li>)
+            }) }
+            </ul>
         </header>
     )
 }
