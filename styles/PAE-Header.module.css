@@ -2,17 +2,48 @@
     min-height: 5rem;
     background-color: black;
     color: wheat;
+    
+}
+
+.container {
+    padding: 0 2rem;
+    max-width: 70rem;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    display: inline-block;
 }
 
 .ul {
     margin: 0;
+    display: inline-block;
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 .li {
-    color: white;
+    padding: .75rem;
+}
+
+.li:hover {
+    opacity: 0.5;
+    transition: .2s;
 }
 
 .highlight {
     color: whitesmoke;
-    text-decoration: underline;
+    border: 1px solid;
+    border-radius: 1rem;
 }
