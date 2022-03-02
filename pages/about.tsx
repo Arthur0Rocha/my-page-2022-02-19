@@ -14,6 +14,9 @@ const About: NextPage = () => {
 
       <main className={styles.main}>
         <h1>Sobre</h1>
+        <p>
+          Arthur Rocha, engenheiro e mestre formado pela Universidade Federal de Pernambuco (UFPE) e Doutorando em Radiologia Médica na Universidade de São Paulo (USP).
+        </p>
       </main>
 
       <footer className={styles.footer}>
