@@ -14,6 +14,8 @@ const Contact: NextPage = () => {
 
       <main className={styles.main}>
         <h1>Contato</h1>
+        <p>E-mail: ar_d_rocha@hotmail.com</p>
+        <p>WhatsApp: (11) 97764-7226</p>
       </main>
 
       <footer className={styles.footer}>
